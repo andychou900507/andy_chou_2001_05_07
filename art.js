@@ -58,7 +58,7 @@ btn_up.addEventListener("click", function(){
         for (var a = 0; a <= 12; a++) {
             for (var b = 0; b <= 12; b++) {
                 if (map[a][b] == 1) content_1.innerHTML = content_1.innerHTML + "你";
-                else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp&nbsp";
+                else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp";
                 else if (map[a][b] == 3) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp*";
                 else if (map[a][b] == 2) content_1.innerHTML = content_1.innerHTML + "｜";
                 else content_1.innerHTML = content_1.innerHTML + "&nbspx&nbsp&nbsp"
@@ -92,7 +92,7 @@ btn_down.addEventListener("click", function(){
         for (var a = 0; a <= 12; a++) {
             for (var b = 0; b <= 12; b++) {
                 if (map[a][b] == 1) content_1.innerHTML = content_1.innerHTML + "你";
-                else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp&nbsp";
+                else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp";
                 else if (map[a][b] == 3) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp*";
                 else if (map[a][b] == 2) content_1.innerHTML = content_1.innerHTML + "｜";
                 else content_1.innerHTML = content_1.innerHTML + "&nbspx&nbsp&nbsp"
@@ -126,7 +126,7 @@ btn_right.addEventListener("click", function(){
         for (var a = 0; a <= 12; a++) {
             for (var b = 0; b <= 12; b++) {
                 if (map[a][b] == 1) content_1.innerHTML = content_1.innerHTML + "你";
-                else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp&nbsp";
+                else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp";
                 else if (map[a][b] == 3) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp*";
                 else if (map[a][b] == 2) content_1.innerHTML = content_1.innerHTML + "｜";
                 else content_1.innerHTML = content_1.innerHTML + "&nbspx&nbsp&nbsp"
@@ -160,7 +160,7 @@ btn_left.addEventListener("click", function(){
         for (var a = 0; a <= 12; a++) {
             for (var b = 0; b <= 12; b++) {
                 if (map[a][b] == 1) content_1.innerHTML = content_1.innerHTML + "你";
-                else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp&nbsp";
+                else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp";
                 else if (map[a][b] == 3) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp*";
                 else if (map[a][b] == 2) content_1.innerHTML = content_1.innerHTML + "｜";
                 else content_1.innerHTML = content_1.innerHTML + "&nbspx&nbsp&nbsp"
@@ -175,7 +175,7 @@ map[head_row][head_column] = 1;
 for (var a = 0; a <= 12; a++) {
     for (var b = 0; b <= 12; b++) {
         if (map[a][b] == 1) content_1.innerHTML = content_1.innerHTML + "你";
-        else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp&nbsp";
+        else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp";
         else if (map[a][b] == 2) content_1.innerHTML = content_1.innerHTML + "｜";
         else content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp*";
     }
@@ -221,7 +221,7 @@ function shoot() {
             for (var a = 0; a <= 12; a++) {
                 for (var b = 0; b <= 12; b++) {
                     if (map[a][b] == 1) content_1.innerHTML = content_1.innerHTML + "你";
-                    else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp&nbsp";
+                    else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp";
                     else if (map[a][b] == 3) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp*";
                     else if (map[a][b] == 2) content_1.innerHTML = content_1.innerHTML + "｜";
                     else content_1.innerHTML = content_1.innerHTML + "&nbspx&nbsp&nbsp"
@@ -238,7 +238,7 @@ function shoot() {
             for (var a = 0; a <= 12; a++) {
                 for (var b = 0; b <= 12; b++) {
                     if (map[a][b] == 1) content_1.innerHTML = content_1.innerHTML + "你";
-                    else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp&nbsp";
+                    else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp";
                     else if (map[a][b] == 3) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp*";
                     else if (map[a][b] == 2) content_1.innerHTML = content_1.innerHTML + "｜";
                     else content_1.innerHTML = content_1.innerHTML + "&nbspx&nbsp&nbsp"
@@ -261,7 +261,7 @@ function shoot() {
             for (var a = 0; a <= 12; a++) {
                 for (var b = 0; b <= 12; b++) {
                     if (map[a][b] == 1) content_1.innerHTML = content_1.innerHTML + "你";
-                    else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp&nbsp";
+                    else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp";
                     else if (map[a][b] == 3) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp*";
                     else if (map[a][b] == 2) content_1.innerHTML = content_1.innerHTML + "｜";
                     else content_1.innerHTML = content_1.innerHTML + "&nbspx&nbsp&nbsp"
@@ -280,7 +280,7 @@ function shoot() {
             for (var a = 0; a <= 12; a++) {
                 for (var b = 0; b <= 12; b++) {
                     if (map[a][b] == 1) content_1.innerHTML = content_1.innerHTML + "你";
-                    else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp&nbsp";
+                    else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp";
                     else if (map[a][b] == 3) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp*";
                     else if (map[a][b] == 2) content_1.innerHTML = content_1.innerHTML + "｜";
                     else content_1.innerHTML = content_1.innerHTML + "&nbspx&nbsp&nbsp"
@@ -320,7 +320,7 @@ function right_appear1() {
     for (var a = 0; a <= 12; a++) {
         for (var b = 0; b <= 12; b++) {
             if (map[a][b] == 1) content_1.innerHTML = content_1.innerHTML + "你";
-            else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp&nbsp";
+            else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp";
             else if (map[a][b] == 3) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp*";
             else if (map[a][b] == 2) content_1.innerHTML = content_1.innerHTML + "｜";
             else content_1.innerHTML = content_1.innerHTML + "&nbspx&nbsp&nbsp"
@@ -343,7 +343,7 @@ function right_appear2() {
     for (var a = 0; a <= 12; a++) {
         for (var b = 0; b <= 12; b++) {
             if (map[a][b] == 1) content_1.innerHTML = content_1.innerHTML + "你";
-            else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp&nbsp";
+            else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp";
             else if (map[a][b] == 3) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp*";
             else if (map[a][b] == 2) content_1.innerHTML = content_1.innerHTML + "｜";
             else content_1.innerHTML = content_1.innerHTML + "&nbspx&nbsp&nbsp"
@@ -366,7 +366,7 @@ function left_appear1() {
     for (var a = 0; a <= 12; a++) {
         for (var b = 0; b <= 12; b++) {
             if (map[a][b] == 1) content_1.innerHTML = content_1.innerHTML + "你";
-            else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp&nbsp";
+            else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp";
             else if (map[a][b] == 3) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp*";
             else if (map[a][b] == 2) content_1.innerHTML = content_1.innerHTML + "｜";
             else content_1.innerHTML = content_1.innerHTML + "&nbspx&nbsp&nbsp"
@@ -389,7 +389,7 @@ function left_appear2() {
     for (var a = 0; a <= 12; a++) {
         for (var b = 0; b <= 12; b++) {
             if (map[a][b] == 1) content_1.innerHTML = content_1.innerHTML + "你";
-            else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp&nbsp";
+            else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp";
             else if (map[a][b] == 3) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp*";
             else if (map[a][b] == 2) content_1.innerHTML = content_1.innerHTML + "｜";
             else content_1.innerHTML = content_1.innerHTML + "&nbspx&nbsp&nbsp"
@@ -544,7 +544,7 @@ btn_restart.addEventListener("click", function(){
     for (var a = 0; a <= 12; a++) {
         for (var b = 0; b <= 12; b++) {
             if (map[a][b] == 1) content_1.innerHTML = content_1.innerHTML + "你";
-            else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp&nbsp";
+            else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp";
             else if (map[a][b] == 2) content_1.innerHTML = content_1.innerHTML + "｜";
             else content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp*";
         }
@@ -592,7 +592,7 @@ function down_appear1() {
         for (var a = 0; a <= 12; a++) {
             for (var b = 0; b <= 12; b++) {
                 if (map[a][b] == 1) content_1.innerHTML = content_1.innerHTML + "你";
-                else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp&nbsp";
+                else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp";
                 else if (map[a][b] == 3) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp*";
                 else if (map[a][b] == 2) content_1.innerHTML = content_1.innerHTML + "｜";
                 else content_1.innerHTML = content_1.innerHTML + "&nbspx&nbsp&nbsp"
@@ -617,7 +617,7 @@ function down_appear2() {
         for (var a = 0; a <= 12; a++) {
             for (var b = 0; b <= 12; b++) {
                 if (map[a][b] == 1) content_1.innerHTML = content_1.innerHTML + "你";
-                else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp&nbsp";
+                else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp";
                 else if (map[a][b] == 3) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp*";
                 else if (map[a][b] == 2) content_1.innerHTML = content_1.innerHTML + "｜";
                 else content_1.innerHTML = content_1.innerHTML + "&nbspx&nbsp&nbsp"
@@ -642,7 +642,7 @@ function up_appear1() {
         for (var a = 0; a <= 12; a++) {
             for (var b = 0; b <= 12; b++) {
                 if (map[a][b] == 1) content_1.innerHTML = content_1.innerHTML + "你";
-                else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp&nbsp";
+                else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp";
                 else if (map[a][b] == 3) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp*";
                 else if (map[a][b] == 2) content_1.innerHTML = content_1.innerHTML + "｜";
                 else content_1.innerHTML = content_1.innerHTML + "&nbspx&nbsp&nbsp"
@@ -667,7 +667,7 @@ function up_appear2() {
         for (var a = 0; a <= 12; a++) {
             for (var b = 0; b <= 12; b++) {
                 if (map[a][b] == 1) content_1.innerHTML = content_1.innerHTML + "你";
-                else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp&nbsp";
+                else if (map[a][b] == 0) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp&nbsp";
                 else if (map[a][b] == 3) content_1.innerHTML = content_1.innerHTML + "&nbsp&nbsp&nbsp*";
                 else if (map[a][b] == 2) content_1.innerHTML = content_1.innerHTML + "｜";
                 else content_1.innerHTML = content_1.innerHTML + "&nbspx&nbsp&nbsp"
